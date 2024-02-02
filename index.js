@@ -26,7 +26,7 @@ const  handle = (fileName,statuscode,req,res) =>{
         }else if(req.url === "/blog"){
             handle("blog.html",200,req,res);
         } else{
-            handle("406.html",406, req,res);
+            handle("404.html",404, req,res);
         }
     });
     
